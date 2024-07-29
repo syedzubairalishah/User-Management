@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="../assest/Blue_Sky_and_Clouds_Timelapse_0892__Videvo.mov" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <h1>Log - in</h1>
+    
+    <form id="login-form">
+        <input type="email" id="email" placeholder="Enter your email"/>
+        <input type="password" id="password" placeholder="Enter your password"/>
+        <button type="submit">Done</button>
+    </form>
+
+    <div id="login-msg"></div>
+
+    <a href="./signup.html">Don't have an account.</a>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="module" src="../scripts/login.js"></script>
+</body>
+</html>
